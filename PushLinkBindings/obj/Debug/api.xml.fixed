@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+  <package name="com.pushlink.android">
+    <class abstract="false" deprecated="not deprecated" extends="com.pushlink.android.Strategy" extends-generic-aware="com.pushlink.android.Strategy" final="true" name="AnnoyingPopUpStrategy" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHash" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPopUpMessage" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUpdateButton" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHash" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPopUpMessage" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setUpdateButton" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnnoyingPopUpStrategy.1" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.DialogInterface">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Base64" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encode" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encode" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encodeToString" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encodeToString" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="CRLF" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="DEFAULT" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NO_CLOSE" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NO_PADDING" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NO_WRAP" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="URL_SAFE" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Base64.Coder" static="true" visibility="">
+      <method abstract="true" deprecated="not deprecated" final="false" name="maxOutputSize" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="process" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="boolean">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="op" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="output" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.pushlink.android.Base64.Coder" extends-generic-aware="com.pushlink.android.Base64.Coder" final="false" name="Base64.Decoder" static="true" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="Base64.Decoder" static="false" type="com.pushlink.android.Base64.Decoder" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="byte[]">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="maxOutputSize" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="boolean">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.pushlink.android.Base64.Coder" extends-generic-aware="com.pushlink.android.Base64.Coder" final="false" name="Base64.Encoder" static="true" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="Base64.Encoder" static="false" type="com.pushlink.android.Base64.Encoder" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="byte[]">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="maxOutputSize" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="boolean">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="LINE_GROUPS" static="true" transient="false" type="int" type-generic-aware="int" value="19" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="do_cr" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="do_newline" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="do_padding" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Configuration" static="false" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="Configuration" static="false" type="com.pushlink.android.Configuration" visibility="public">
+        <parameter name="p0" type="com.pushlink.android.Strategy">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAndroidId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getApiKey" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getConnectionTimeoutInSeconds" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentStrategy" native="false" return="com.pushlink.android.Strategy" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDeviceId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeartbeatIntervalInSeconds" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHostHttp" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHostTcp" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHttpSocketTimeoutInSeconds" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMaxExceptionQueueSize" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNotificationIcon" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPackageName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPort" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPushLinkVersion" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isExceptionNotification" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isIdle" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAndroidId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setApiKey" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setConnectionTimeoutInSeconds" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentStrategy" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.pushlink.android.Strategy">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDeviceId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setExceptionNotification" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHeartbeatIntervalInSeconds" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHostHttp" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHostTcp" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHttpSocketTimeoutInSeconds" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIdle" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaxExceptionQueueSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNotificationIcon" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPackageName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPort" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPushLinkVersion" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.pushlink.android.Strategy" extends-generic-aware="com.pushlink.android.Strategy" final="true" name="CustomStrategy" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHash" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHash" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DAO" static="false" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="DAO" static="false" type="com.pushlink.android.DAO" visibility="protected">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="delete" native="false" return="void" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="com.pushlink.android.DAO.ExceptionMsg">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="deserialize" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <exception name="ClassNotFoundException" type="java.lang.ClassNotFoundException">
+        </exception>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="findExceptionQueueSize" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="findOlderExceptionToSend" native="false" return="java.util.List&lt;com.pushlink.android.DAO.ExceptionMsg&gt;" static="false" synchronized="false" visibility="protected">
+        <exception name="ClassNotFoundException" type="java.lang.ClassNotFoundException">
+        </exception>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="insert" native="false" return="void" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="java.lang.Throwable">
+        </parameter>
+        <parameter name="p1" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+        </parameter>
+        <parameter name="p2" type="java.util.ArrayList&lt;java.lang.String&gt;">
+        </parameter>
+        <parameter name="p3" type="byte[]">
+        </parameter>
+        <parameter name="p4" type="boolean">
+        </parameter>
+        <parameter name="p5" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="serialize" native="false" return="byte[]" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="java.io.Serializable">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DAO.ExceptionMsg" static="false" visibility="protected">
+      <constructor deprecated="not deprecated" final="false" name="DAO.ExceptionMsg" static="false" type="com.pushlink.android.DAO.ExceptionMsg" visibility="protected">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getGuid" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getId" native="false" return="java.lang.Integer" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLogcat" native="false" return="java.util.ArrayList&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMetadata" native="false" return="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNameValuePairs" native="false" return="java.util.ArrayList" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getScreen" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getThrowable" native="false" return="java.lang.Throwable" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isHandled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setGuid" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHandled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Integer">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLogcat" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.ArrayList&lt;java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMetadata" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNameValuePairs" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.ArrayList">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setScreen" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setThrowable" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Throwable">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExceptionHandler.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.ContentProvider" extends-generic-aware="android.content.ContentProvider" final="false" name="FileProvider" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="FileProvider" static="false" type="com.pushlink.android.FileProvider" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="delete" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.net.Uri">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+        <parameter name="p2" type="java.lang.String[]">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.net.Uri">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="insert" native="false" return="android.net.Uri" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.net.Uri">
+        </parameter>
+        <parameter name="p1" type="android.content.ContentValues">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onCreate" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="query" native="false" return="android.database.Cursor" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.net.Uri">
+        </parameter>
+        <parameter name="p1" type="java.lang.String[]">
+        </parameter>
+        <parameter name="p2" type="java.lang.String">
+        </parameter>
+        <parameter name="p3" type="java.lang.String[]">
+        </parameter>
+        <parameter name="p4" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="update" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.net.Uri">
+        </parameter>
+        <parameter name="p1" type="android.content.ContentValues">
+        </parameter>
+        <parameter name="p2" type="java.lang.String">
+        </parameter>
+        <parameter name="p3" type="java.lang.String[]">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.pushlink.android.Strategy" extends-generic-aware="com.pushlink.android.Strategy" final="true" name="FriendlyPopUpStrategy" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHash" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNotNowButton" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPopUpMessage" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getReminderTimeInSeconds" native="false" return="java.lang.Integer" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUpdateButton" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNotNowButton" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPopUpMessage" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setReminderTimeInSeconds" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Integer">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setUpdateButton" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FriendlyPopUpStrategy.1" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.DialogInterface">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FriendlyPopUpStrategy.2" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.DialogInterface">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HashHandler" static="false" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="HashHandler" static="false" type="com.pushlink.android.HashHandler" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentInstalledApkHash" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLastDownloadHash" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="md5" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.io.InputStream">
+        </parameter>
+        <exception name="Throwable" type="java.lang.Throwable">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLastDownloadHash" native="false" return="void" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" final="false" name="NinjaReceiver" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="NinjaReceiver" static="false" type="com.pushlink.android.NinjaReceiver" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.content.Intent">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.pushlink.android.Strategy" extends-generic-aware="com.pushlink.android.Strategy" final="true" name="NinjaStrategy" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHash" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setBeforeNinjaTaskShellCommand" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setExtraShellCommand" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHash" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="NinjaStrategy.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="PushLink" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="addExceptionMetadata" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addMetadata" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="disableExceptionNotification" native="false" return="void" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="enableExceptionNotification" native="false" return="void" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentStrategy" native="false" return="com.pushlink.android.Strategy" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasPendingUpdate" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="hasPengingUpdate" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="idle" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendAsyncException" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Throwable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendAsyncException" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Throwable">
+        </parameter>
+        <parameter name="p1" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentActivity" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentStrategy" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.pushlink.android.StrategyEnum">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaxExceptionQueueSize" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="true" synchronized="true" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="java.lang.String">
+        </parameter>
+        <parameter name="p3" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" final="false" name="PushLink.1" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PushLink.2" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PushLink.3" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PushLink.4" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Screenshot" static="false" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="Screenshot" static="false" type="com.pushlink.android.Screenshot" visibility="public">
+        <parameter name="p0" type="android.app.Activity">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="screenShot" native="false" return="byte[]" static="false" synchronized="false" visibility="protected">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.pushlink.android.Strategy" extends-generic-aware="com.pushlink.android.Strategy" final="true" name="StatusBarStrategy" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHash" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStatusBarDescription" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStatusBarTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHash" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setStatusBarDescription" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setStatusBarTitle" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Strategy" static="false" visibility="public" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Strategy.1" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.pushlink.android.StrategyEnum&gt;" final="true" name="StrategyEnum" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.pushlink.android.StrategyEnum" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.pushlink.android.StrategyEnum[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="ANNOYING_POPUP" static="true" transient="false" type="com.pushlink.android.StrategyEnum" type-generic-aware="com.pushlink.android.StrategyEnum" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="CUSTOM" static="true" transient="false" type="com.pushlink.android.StrategyEnum" type-generic-aware="com.pushlink.android.StrategyEnum" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FRIENDLY_POPUP" static="true" transient="false" type="com.pushlink.android.StrategyEnum" type-generic-aware="com.pushlink.android.StrategyEnum" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NINJA" static="true" transient="false" type="com.pushlink.android.StrategyEnum" type-generic-aware="com.pushlink.android.StrategyEnum" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="STATUS_BAR" static="true" transient="false" type="com.pushlink.android.StrategyEnum" type-generic-aware="com.pushlink.android.StrategyEnum" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TcpHandler" static="false" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="TcpHandler" static="false" type="com.pushlink.android.TcpHandler" visibility="public">
+        <parameter name="p0" type="com.pushlink.android.Configuration">
+        </parameter>
+        <parameter name="p1" type="com.pushlink.android.HashHandler">
+        </parameter>
+        <parameter name="p2" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNewHash" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendHeartbeatAndMetadata" native="false" return="void" static="false" synchronized="false" visibility="protected">
+      </method>
+      <field deprecated="not deprecated" final="false" name="lastMetadataSent" static="false" transient="false" type="java.util.HashMap" type-generic-aware="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;" visibility="protected" volatile="false">
+      </field>
+    </class>
+  </package>
+</api>

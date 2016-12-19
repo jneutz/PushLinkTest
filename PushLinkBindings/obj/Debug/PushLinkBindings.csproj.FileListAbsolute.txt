@@ -1,0 +1,8 @@
+c:\users\neutzner\documents\visual studio 2015\Projects\PushLinkTest\PushLinkBindings\bin\Debug\PushLinkBindings.dll
+c:\users\neutzner\documents\visual studio 2015\Projects\PushLinkTest\PushLinkBindings\bin\Debug\PushLinkBindings.pdb
+c:\users\neutzner\documents\visual studio 2015\Projects\PushLinkTest\PushLinkBindings\obj\Debug\PushLinkBindings.dll
+c:\users\neutzner\documents\visual studio 2015\Projects\PushLinkTest\PushLinkBindings\obj\Debug\PushLinkBindings.pdb
+c:\users\neutzner\documents\visual studio 2015\Projects\PushLinkTest\PushLinkBindings\obj\Debug\PushLinkBindings.dll.mdb
+c:\users\neutzner\documents\visual studio 2015\Projects\PushLinkTest\PushLinkBindings\bin\Debug\PushLinkBindings.dll.mdb
+c:\users\neutzner\documents\visual studio 2015\Projects\PushLinkTest\PushLinkBindings\obj\Debug\PushLinkBindings.dll.mdb
+c:\users\neutzner\documents\visual studio 2015\Projects\PushLinkTest\PushLinkBindings\bin\Debug\PushLinkBindings.dll.mdb

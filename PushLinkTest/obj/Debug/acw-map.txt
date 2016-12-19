@@ -1,0 +1,8 @@
+PushLinkTest.MainActivity, PushLinkTest;md50f26676c57e4ae67aee7bbde68a233d9.MainActivity
+PushLinkTest.MainActivity, PushLinkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50f26676c57e4ae67aee7bbde68a233d9.MainActivity
+PushLinkTest.MainActivity;md50f26676c57e4ae67aee7bbde68a233d9.MainActivity
+pushlinktest.MainActivity;md50f26676c57e4ae67aee7bbde68a233d9.MainActivity
+PushLinkTest.MainApplication, PushLinkTest;md50f26676c57e4ae67aee7bbde68a233d9.MainApplication
+PushLinkTest.MainApplication, PushLinkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50f26676c57e4ae67aee7bbde68a233d9.MainApplication
+PushLinkTest.MainApplication;md50f26676c57e4ae67aee7bbde68a233d9.MainApplication
+pushlinktest.MainApplication;md50f26676c57e4ae67aee7bbde68a233d9.MainApplication
