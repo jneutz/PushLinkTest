@@ -11,7 +11,6 @@ namespace PushLinkTest
     public class MainActivity : Activity
     {
         private WebView _myWebView;
-        private Guid _erfassungsFormular = new Guid("2326c942-5ee7-435d-9fb4-2abf38f6febd");
         private static Bundle _savedInstance;
 
         protected override void OnCreate(Bundle inBundle)
